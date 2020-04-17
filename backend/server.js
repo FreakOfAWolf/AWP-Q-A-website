@@ -3,13 +3,14 @@ let mongoose = require('mongoose');
 let cors = require('cors');
 let bodyParser = require('body-parser');
 let dbConfig = require('./database/db');
+const path = require('path');
 
 // Express Route
 const questionRoute = require('../backend/routes/question.route');
 
 // Connecting mongoDB Database
 mongoose.Promise = global.Promise;
-mongoose.connect(dbConfig.db, {
+mongoose.connect(process.env.MONGODB_URI || dbConfig.db, {
     useNewUrlParser: true
 }).then(() => {
         console.log('Database successfully connected!')
@@ -27,6 +28,12 @@ app.use(bodyParser.urlencoded({
 app.use(cors());
 app.use('/questions', questionRoute);
 
+if(process.env.NODE_ENV === 'production'){
+    app.use(express.static('handin/build'));
+    app.get('*', (req, res) => {
+        res.sendFile(path.join(__dirname, 'handin', 'build', 'index.html') );
+    })
+}
 
 // PORT
 const port = process.env.PORT || 3000;
@@ -39,6 +46,7 @@ app.use((req, res, next) => {
     // eslint-disable-next-line no-undef
     next(createError(404));
 });
+
 
 app.use(function (err, req, res, next) {
     console.error(err.message);

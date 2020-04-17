@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fb177cc-70d9-4f4f-8498-ca4c62698012" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/Models/QuestionSchema.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/Models/answerSchema.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/database/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/question.route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AddQuestion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnswerTableRow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Answers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DummyData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EditQuestion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PostAnswer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Question.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QuestionTableRow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/addVote.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +19,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Vito Ilchev &lt;vito.ilchev@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aFsxyZ2if7PtO7fwaxl446DgjS" />
@@ -108,7 +91,30 @@
       <workItem from="1586611462246" duration="13631000" />
       <workItem from="1586768565128" duration="28043000" />
       <workItem from="1587034160158" duration="3533000" />
+      <workItem from="1587116045326" duration="13686000" />
     </task>
+    <task id="LOCAL-00001" summary="Full working Q&amp;A website. AWP mandatory assignment.">
+      <created>1587116286320</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587116286320</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Full working Q&amp;A website. AWP mandatory assignment.">
+      <created>1587124837332</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587124837332</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Full working Q&amp;A website. AWP mandatory assignment.">
+      <created>1587124877305</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587124877305</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,12 +122,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Full working Q&amp;A website. AWP mandatory assignment." />
+    <option name="LAST_COMMIT_MESSAGE" value="Full working Q&amp;A website. AWP mandatory assignment." />
   </component>
   <component name="WindowStateProjectService">
     <state x="362" y="77" key="#ESLint" timestamp="1586609938648">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="362" y="77" key="#ESLint/0.0.1536.834@0.0.1536.834" timestamp="1586609938648" />
+    <state x="480" y="61" key="CommitChangelistDialog2" timestamp="1587124876745">
+      <screen x="0" y="0" width="1707" height="930" />
+    </state>
+    <state x="480" y="61" key="CommitChangelistDialog2/0.0.1707.930@0.0.1707.930" timestamp="1587124876745" />
     <state width="1686" height="244" key="GridCell.Tab.0.bottom" timestamp="1587043238363">
       <screen x="0" y="0" width="1707" height="930" />
     </state>
@@ -190,6 +202,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1515" height="265" key="GridCell.Tab.3.right/0.0.1536.834@0.0.1536.834" timestamp="1586804235321" />
+    <state x="447" y="188" key="Vcs.Push.Dialog.v2" timestamp="1587124880968">
+      <screen x="0" y="0" width="1707" height="930" />
+    </state>
+    <state x="447" y="188" key="Vcs.Push.Dialog.v2/0.0.1707.930@0.0.1707.930" timestamp="1587124880968" />
     <state x="462" y="15" width="613" height="804" key="find.popup" timestamp="1586777877089">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
