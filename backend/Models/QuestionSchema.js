@@ -13,6 +13,6 @@ let questionSchema = new Schema({
     }
 }, {
     collection: 'questions'
-})
+});
 
 module.exports = mongoose.model('QuestionSchema', questionSchema);
