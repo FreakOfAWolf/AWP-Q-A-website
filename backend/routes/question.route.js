@@ -86,7 +86,7 @@ router.route('/update-question/:id').put((req, res, next) => {
             return next(error);
             console.log(error);
         } else {
-            res.json(data)
+            res.json(data);
             console.log('Question updated successfully !')
         }
     })
