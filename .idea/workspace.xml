@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7fb177cc-70d9-4f4f-8498-ca4c62698012" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +102,8 @@
       <workItem from="1586768565128" duration="28043000" />
       <workItem from="1587034160158" duration="3533000" />
       <workItem from="1587116045326" duration="21390000" />
-      <workItem from="1587207489651" duration="1932000" />
+      <workItem from="1587207489651" duration="2669000" />
+      <workItem from="1587227567930" duration="338000" />
     </task>
     <task id="LOCAL-00001" summary="Full working Q&amp;A website. AWP mandatory assignment.">
       <created>1587116286320</created>
@@ -161,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587158931448</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Full working Q&amp;A website. AWP mandatory assignment.">
+      <created>1587210325709</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1587210325709</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,10 +184,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="362" y="77" key="#ESLint/0.0.1536.834@0.0.1536.834" timestamp="1586609938648" />
-    <state x="480" y="61" key="CommitChangelistDialog2" timestamp="1587158930819">
+    <state x="480" y="61" key="CommitChangelistDialog2" timestamp="1587210324690">
       <screen x="0" y="0" width="1707" height="930" />
     </state>
-    <state x="480" y="61" key="CommitChangelistDialog2/0.0.1707.930@0.0.1707.930" timestamp="1587158930819" />
+    <state x="480" y="61" key="CommitChangelistDialog2/0.0.1707.930@0.0.1707.930" timestamp="1587210324690" />
     <state width="1686" height="244" key="GridCell.Tab.0.bottom" timestamp="1587043238363">
       <screen x="0" y="0" width="1707" height="930" />
     </state>
@@ -249,10 +256,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1515" height="265" key="GridCell.Tab.3.right/0.0.1536.834@0.0.1536.834" timestamp="1586804235321" />
-    <state x="447" y="188" key="Vcs.Push.Dialog.v2" timestamp="1587158933739">
+    <state x="447" y="188" key="Vcs.Push.Dialog.v2" timestamp="1587210328030">
       <screen x="0" y="0" width="1707" height="930" />
     </state>
-    <state x="447" y="188" key="Vcs.Push.Dialog.v2/0.0.1707.930@0.0.1707.930" timestamp="1587158933739" />
+    <state x="447" y="188" key="Vcs.Push.Dialog.v2/0.0.1707.930@0.0.1707.930" timestamp="1587210328030" />
     <state x="462" y="15" width="613" height="804" key="find.popup" timestamp="1586777877089">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

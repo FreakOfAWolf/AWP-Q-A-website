@@ -11,7 +11,7 @@
     "dev": "cd client && npm start",
     "test": "cd client && npm test",
     "preinstall": "cd backend && npm install",
-    "install": "cd client && npm install",
+    "install": "cd client && npm install && npm install axios",
     "build": "cd client && npm run build"
   },
   "eslintConfig": {
