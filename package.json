@@ -2,6 +2,10 @@
   "name": "handin",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "npm": "6.13.6",
+    "node": "13.7.0"
+  },
   "scripts": {
     "start": "cd backend && node server.js",
     "dev": "cd client && npm start",
