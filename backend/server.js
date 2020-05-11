@@ -11,7 +11,8 @@ const questionRoute = require('../backend/routes/question.route');
 // Connecting mongoDB Database
 mongoose.Promise = global.Promise;
 mongoose.connect(process.env.MONGODB_URI || dbConfig.db, {
-    useNewUrlParser: true
+    useNewUrlParser: true,
+    useUnifiedTopology: true
 }).then(() => {
         console.log('Database successfully connected!')
     },
