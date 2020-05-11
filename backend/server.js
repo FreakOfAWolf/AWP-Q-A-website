@@ -10,7 +10,7 @@ const questionRoute = require('../backend/routes/question.route');
 
 // Connecting mongoDB Database
 mongoose.Promise = global.Promise;
-mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://Vito:0000@cluster0-tlvjz.mongodb.net/test?retryWrites=true&w=majority", {
+mongoose.connect(process.env.MONGODB_URI || dbConfig.db, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {
