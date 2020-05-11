@@ -9,10 +9,11 @@
   "scripts": {
     "start": "cd backend && node server.js",
     "dev": "cd client && npm start",
-    "test": "cd client && npm test",
+    "test": "cd client && npm test", 
     "preinstall": "cd backend && npm install",
     "install": "cd client && npm install && npm install axios",
-    "build": "cd client && npm run build"
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run install && npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
