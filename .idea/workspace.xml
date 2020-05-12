@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7fb177cc-70d9-4f4f-8498-ca4c62698012" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/question.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/question.route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/AddQuestion.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/AddQuestion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/PostAnswer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/PostAnswer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Questions.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Questions.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,7 @@
       <workItem from="1589200188118" duration="177000" />
       <workItem from="1589202816616" duration="3683000" />
       <workItem from="1589274852382" duration="4885000" />
-      <workItem from="1589279759099" duration="8493000" />
+      <workItem from="1589279759099" duration="11106000" />
     </task>
     <task id="LOCAL-00001" summary="Full working Q&amp;A website. AWP mandatory assignment.">
       <created>1587116286320</created>
@@ -210,7 +210,35 @@
       <option name="project" value="LOCAL" />
       <updated>1589285087577</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Changes to the port numbers and fixing the main issue of needing two different set of ports. Small overlooked mistake now fixed.">
+      <created>1589294969046</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1589294969046</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Changes to the port numbers and fixing the main issue of needing two different set of ports. Small overlooked mistake now fixed.">
+      <created>1589295071310</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1589295071310</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Changes to the port numbers and fixing the main issue of needing two different set of ports. Small overlooked mistake now fixed.">
+      <created>1589295302270</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1589295302270</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Changes to the port numbers and fixing the main issue of needing two different set of ports. Small overlooked mistake now fixed.">
+      <created>1589295509447</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1589295509447</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,10 +259,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="543" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1589279692564" />
-    <state x="241" y="27" key="CommitChangelistDialog2" timestamp="1589285087009">
+    <state x="241" y="27" key="CommitChangelistDialog2" timestamp="1589295508923">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="241" y="27" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1589285087009" />
+    <state x="241" y="27" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1589295508923" />
     <state x="480" y="61" key="CommitChangelistDialog2/0.0.1707.930@0.0.1707.930" timestamp="1587227929935" />
     <state x="550" y="174" key="FileChooserDialogImpl" timestamp="1589200345241">
       <screen x="0" y="0" width="1536" height="834" />
@@ -312,15 +340,15 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="483" y="135" key="MultipleFileMergeDialog/0.0.1536.834@0.0.1536.834" timestamp="1589210284828" />
-    <state x="402" y="169" key="Vcs.Push.Dialog.v2" timestamp="1589285091315">
+    <state x="402" y="169" key="Vcs.Push.Dialog.v2" timestamp="1589295510936">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="402" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1589285091315" />
+    <state x="402" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1589295510936" />
     <state x="447" y="188" key="Vcs.Push.Dialog.v2/0.0.1707.930@0.0.1707.930" timestamp="1587227934648" />
-    <state x="462" y="15" width="744" height="804" key="find.popup" timestamp="1589278098488">
+    <state x="462" y="15" width="744" height="804" key="find.popup" timestamp="1589299065678">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="462" y="15" width="744" height="804" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1589278098488" />
+    <state x="462" y="15" width="744" height="804" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1589299065678" />
     <state x="426" y="72" width="672" height="676" key="search.everywhere.popup" timestamp="1586784257398">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

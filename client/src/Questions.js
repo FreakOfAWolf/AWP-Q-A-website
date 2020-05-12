@@ -52,12 +52,3 @@ export default class QuestionsList extends Component {
         </div>);
     }
 }
-
-// Some test data
-/*const data = [
-    {
-        alert(message) {
-            questions.question1.answers();
-        }
-    }
-];*/

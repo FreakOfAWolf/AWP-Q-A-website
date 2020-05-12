@@ -46,7 +46,7 @@ export default class AddQuestion extends Component {
             .then(res => console.log(res.data));
 
         this.setState({title: '', description: '', _id: ''});
-        window.location.assign("http://localhost:3001/QuestionsList");
+        window.location.assign("../QuestionsList");
     }
 
     render() {

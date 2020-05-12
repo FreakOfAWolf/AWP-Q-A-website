@@ -52,7 +52,7 @@ export default class PostAnswer extends Component {
             .then(res => console.log(res.data));
 
         this.setState({ content: ''});
-        window.location.assign("http://localhost:3001/question/"+this.state._id+"/answers");
+        window.location.assign("../question/"+this.state._id+"/answers");
     }
 
     render() {
