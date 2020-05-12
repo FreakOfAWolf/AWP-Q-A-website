@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7fb177cc-70d9-4f4f-8498-ca4c62698012" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/AddQuestion.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/AddQuestion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/PostAnswer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/PostAnswer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Questions.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Questions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +109,7 @@
       <workItem from="1589200188118" duration="177000" />
       <workItem from="1589202816616" duration="3683000" />
       <workItem from="1589274852382" duration="4885000" />
-      <workItem from="1589279759099" duration="11106000" />
+      <workItem from="1589279759099" duration="13512000" />
     </task>
     <task id="LOCAL-00001" summary="Full working Q&amp;A website. AWP mandatory assignment.">
       <created>1587116286320</created>
@@ -238,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589295509447</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Fixing loading pages after adding a question or posting an answer to the correct page and post.">
+      <created>1589299377114</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1589299377114</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +254,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Full working Q&amp;A website. AWP mandatory assignment." />
     <MESSAGE value="Changes to the port numbers and fixing the main issue of needing two different set of ports. Small overlooked mistake now fixed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes to the port numbers and fixing the main issue of needing two different set of ports. Small overlooked mistake now fixed." />
+    <MESSAGE value="Fixing loading pages after adding a question or posting an answer to the correct page and post." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing loading pages after adding a question or posting an answer to the correct page and post." />
   </component>
   <component name="WindowStateProjectService">
     <state x="362" y="77" key="#ESLint" timestamp="1586609938648">
@@ -259,10 +266,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="543" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1589279692564" />
-    <state x="241" y="27" key="CommitChangelistDialog2" timestamp="1589295508923">
+    <state x="241" y="27" key="CommitChangelistDialog2" timestamp="1589299376521">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="241" y="27" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1589295508923" />
+    <state x="241" y="27" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1589299376521" />
     <state x="480" y="61" key="CommitChangelistDialog2/0.0.1707.930@0.0.1707.930" timestamp="1587227929935" />
     <state x="550" y="174" key="FileChooserDialogImpl" timestamp="1589200345241">
       <screen x="0" y="0" width="1536" height="834" />
@@ -340,10 +347,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="483" y="135" key="MultipleFileMergeDialog/0.0.1536.834@0.0.1536.834" timestamp="1589210284828" />
-    <state x="402" y="169" key="Vcs.Push.Dialog.v2" timestamp="1589295510936">
+    <state x="402" y="169" key="Vcs.Push.Dialog.v2" timestamp="1589299380808">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="402" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1589295510936" />
+    <state x="402" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1589299380808" />
     <state x="447" y="188" key="Vcs.Push.Dialog.v2/0.0.1707.930@0.0.1707.930" timestamp="1587227934648" />
     <state x="462" y="15" width="744" height="804" key="find.popup" timestamp="1589299065678">
       <screen x="0" y="0" width="1536" height="834" />
