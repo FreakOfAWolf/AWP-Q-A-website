@@ -1,10 +1,8 @@
 import React, {Component} from "react";
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 import axios from 'axios';
 import Table from "react-bootstrap/Table";
 import AnswerTableRow from "./AnswerTableRow";
-import {Link} from "react-router-dom";
 
 export default class Question extends Component {
 
