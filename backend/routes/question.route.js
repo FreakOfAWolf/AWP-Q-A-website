@@ -22,7 +22,7 @@ router.route('/addQuestion').post((req, res, next) => {
 router.route('/postAnswer').post((req, res, next) => {
     answerSchema.create(req.body, (error, data) => {
         if (error) {
-            console.log(error)
+            console.log(error);
             return next(error)
         } else {
             console.log(data);
@@ -98,9 +98,8 @@ router.route('/voteAnswer/:id').put((req, res, next) => {
     }, (error, data) => {
         if (error) {
             return next(error);
-            console.log(error);
         } else {
-            res.json(data)
+            res.json(data);
             console.log('Answer voted for successfully !')
         }
     })

@@ -61,5 +61,5 @@ function App() {
             </Container>
         </div>
     </Router>);
-}//nodemon server.js to start the database connection
+}
 export default App;
