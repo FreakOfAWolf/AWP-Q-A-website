@@ -15,7 +15,7 @@ export default class QuestionsList extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:3000/questions/')
+        axios.get('http://localhost:8080/questions/')
             .then(res => {
                 this.setState({
                     questions: res.data

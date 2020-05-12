@@ -7,13 +7,15 @@
     "node": "13.7.0"
   },
   "scripts": {
-    "start": "cd backend && node server.js",
-    "dev": "cd client && npm start",
-    "test": "cd client && npm test", 
-    "preinstall": "cd backend && npm install",
-    "install": "cd client && npm install && npm install axios",
+    "test": "cd client && npm test",
     "build": "cd client && npm run build",
-    "heroku-postbuild": "npm run install && npm run build"
+    "install-client": "cd client && npm install && npm install axios",
+    "install-backend": "cd backend && npm install",
+    "heroku-postbuild": "npm run install-client && npm run install-backend && npm run build",
+    "start": "cd backend && node server.js",
+    "dev": "cd client && npm start"
+
+
   },
   "eslintConfig": {
     "extends": "react-app"

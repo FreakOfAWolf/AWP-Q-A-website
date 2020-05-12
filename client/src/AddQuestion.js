@@ -42,7 +42,7 @@ export default class AddQuestion extends Component {
         };
         console.log(questionObject);
 
-        axios.post('http://localhost:3000/questions/addQuestion', questionObject)
+        axios.post('http://localhost:8080/questions/addQuestion', questionObject)
             .then(res => console.log(res.data));
 
         this.setState({title: '', description: '', _id: ''});

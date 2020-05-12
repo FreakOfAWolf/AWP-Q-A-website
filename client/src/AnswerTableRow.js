@@ -14,7 +14,7 @@ export default class AnswerTableRow extends Component {
 
     // Deleting an answer, testing out things.
     deleteAnswer() {
-        axios.delete('http://localhost:3000/questions/delete-answer/' + this.props.obj._id)
+        axios.delete('http://localhost:8080/questions/delete-answer/' + this.props.obj._id)
             .then((res) => {
                 console.log('Answer successfully deleted!');
                 window.location.reload();
@@ -27,7 +27,7 @@ export default class AnswerTableRow extends Component {
         let temp = this.props.obj;
         let v = temp.votes +=1;
         console.log(v);
-        axios.put('http://localhost:3000/questions/voteAnswer/' + this.props.obj._id,temp)
+        axios.put('http://localhost:8080/questions/voteAnswer/' + this.props.obj._id,temp)
             .then((res) => {
                 console.log('Answer successfully up-voted!');
                 window.location.reload();

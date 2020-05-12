@@ -24,7 +24,7 @@ export default class PostAnswer extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:3000/questions/question/' + this.props.match.params.id)
+        axios.get('http://localhost:8080/questions/question/' + this.props.match.params.id)
 
             .then(res => {
                 this.setState({
@@ -48,7 +48,7 @@ export default class PostAnswer extends Component {
         };
         console.log(answerObject);
 
-        axios.post('http://localhost:3000/questions/postAnswer/', answerObject)
+        axios.post('http://localhost:8080/questions/postAnswer/', answerObject)
             .then(res => console.log(res.data));
 
         this.setState({ content: ''});

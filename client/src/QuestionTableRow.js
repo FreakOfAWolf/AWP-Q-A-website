@@ -10,7 +10,7 @@ export default class QuestionTableRow extends Component {
     }
 
     deleteQuestion() {
-        axios.delete('http://localhost:3000/questions/delete-question/' + this.props.obj._id)
+        axios.delete('http://localhost:8080/questions/delete-question/' + this.props.obj._id)
             .then((res) => {
                 console.log('Question successfully deleted!');
                 window.location.reload();

@@ -37,17 +37,10 @@ if(process.env.NODE_ENV === 'production') {
 }
 
 // PORT
-const port = process.env.PORT || 3000;
-const server = app.listen(port, () => {
+const port = process.env.PORT || 8080;
+app.listen(port, () => {
     console.log('Connected to port ' + port)
 });
-
-// 404 Error
-app.use((req, res, next) => {
-    // eslint-disable-next-line no-undef
-    next(createError(404));
-});
-
 
 app.use(function (err, req, res, next) {
     console.error(err.message);
