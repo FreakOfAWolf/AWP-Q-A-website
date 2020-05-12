@@ -46,7 +46,7 @@ export default class AddQuestion extends Component {
             .then(res => console.log(res.data));
 
         this.setState({title: '', description: '', _id: ''});
-        window.location.assign("../QuestionsList");
+        window.location.assign("https://awp-qanda-website.herokuapp.com/QuestionsList");
     }
 
     render() {

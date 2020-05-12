@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7fb177cc-70d9-4f4f-8498-ca4c62698012" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/AddQuestion.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/AddQuestion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/PostAnswer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/PostAnswer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +109,8 @@
       <workItem from="1589200188118" duration="177000" />
       <workItem from="1589202816616" duration="3683000" />
       <workItem from="1589274852382" duration="4885000" />
-      <workItem from="1589279759099" duration="15441000" />
+      <workItem from="1589279759099" duration="15862000" />
+      <workItem from="1589305568950" duration="1238000" />
     </task>
     <task id="LOCAL-00001" summary="Full working Q&amp;A website. AWP mandatory assignment.">
       <created>1587116286320</created>
@@ -256,7 +259,28 @@
       <option name="project" value="LOCAL" />
       <updated>1589304589822</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Fixing capital letters">
+      <created>1589305018539</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1589305018539</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Fixing capital letters">
+      <created>1589305901931</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1589305901931</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Fixing capital letters">
+      <created>1589306198906</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1589306198906</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +292,8 @@
     <MESSAGE value="Changes to the port numbers and fixing the main issue of needing two different set of ports. Small overlooked mistake now fixed." />
     <MESSAGE value="Fixing loading pages after adding a question or posting an answer to the correct page and post." />
     <MESSAGE value="asd" />
-    <option name="LAST_COMMIT_MESSAGE" value="asd" />
+    <MESSAGE value="Fixing capital letters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing capital letters" />
   </component>
   <component name="WindowStateProjectService">
     <state x="362" y="77" key="#ESLint" timestamp="1586609938648">
@@ -279,10 +304,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="543" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1589279692564" />
-    <state x="241" y="27" key="CommitChangelistDialog2" timestamp="1589304588983">
+    <state x="257" y="0" key="CommitChangelistDialog2" timestamp="1589306198347">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="241" y="27" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1589304588983" />
+    <state x="257" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1589306198347" />
     <state x="480" y="61" key="CommitChangelistDialog2/0.0.1707.930@0.0.1707.930" timestamp="1587227929935" />
     <state x="550" y="174" key="FileChooserDialogImpl" timestamp="1589200345241">
       <screen x="0" y="0" width="1536" height="834" />
@@ -360,15 +385,15 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="483" y="135" key="MultipleFileMergeDialog/0.0.1536.834@0.0.1536.834" timestamp="1589210284828" />
-    <state x="402" y="169" key="Vcs.Push.Dialog.v2" timestamp="1589304591646">
+    <state x="402" y="169" key="Vcs.Push.Dialog.v2" timestamp="1589306200544">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="402" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1589304591646" />
+    <state x="402" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1589306200544" />
     <state x="447" y="188" key="Vcs.Push.Dialog.v2/0.0.1707.930@0.0.1707.930" timestamp="1587227934648" />
-    <state x="462" y="15" width="744" height="804" key="find.popup" timestamp="1589299065678">
+    <state x="462" y="15" width="744" height="804" key="find.popup" timestamp="1589306936627">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="462" y="15" width="744" height="804" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1589299065678" />
+    <state x="462" y="15" width="744" height="804" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1589306936627" />
     <state x="426" y="72" width="672" height="676" key="search.everywhere.popup" timestamp="1586784257398">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
