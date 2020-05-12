@@ -4,6 +4,7 @@ let cors = require('cors');
 let bodyParser = require('body-parser');
 let dbConfig = require('./database/db');
 const path = require('path');
+const morgan = require('morgan');
 
 // Express Route
 const questionRoute = require('../backend/routes/question.route');
@@ -27,15 +28,16 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 app.use(cors());
+app.use(morgan('combined'));
 app.use('/questions', questionRoute);
 
 //Serve static assets if in production
-if (process.env.NODE_ENV === 'production') {
-    app.use(express.static('client/build'));
+//if (process.env.NODE_ENV === 'production') {
+    app.use(express.static('../client/build'));
     app.get('*', (req, res) => {
         res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html') );
-    })
-}
+    });
+//}
 
 // PORT
 const port = process.env.PORT || 8080;
