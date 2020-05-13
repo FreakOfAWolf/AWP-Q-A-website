@@ -110,7 +110,7 @@
       <workItem from="1589274852382" duration="4885000" />
       <workItem from="1589279759099" duration="15862000" />
       <workItem from="1589305568950" duration="2686000" />
-      <workItem from="1589409016574" duration="3541000" />
+      <workItem from="1589409016574" duration="3761000" />
     </task>
     <task id="LOCAL-00001" summary="Full working Q&amp;A website. AWP mandatory assignment.">
       <created>1587116286320</created>
@@ -294,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589412136297</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Changing AddQuestion and PostAnswer window.location to a heroku link">
+      <created>1589412781730</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1589412781730</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,10 +326,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="543" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1589279692564" />
-    <state x="257" y="0" key="CommitChangelistDialog2" timestamp="1589412135351">
+    <state x="257" y="0" key="CommitChangelistDialog2" timestamp="1589412781099">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="257" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1589412135351" />
+    <state x="257" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1589412781099" />
     <state x="480" y="61" key="CommitChangelistDialog2/0.0.1707.930@0.0.1707.930" timestamp="1587227929935" />
     <state x="550" y="174" key="FileChooserDialogImpl" timestamp="1589200345241">
       <screen x="0" y="0" width="1536" height="834" />
@@ -400,10 +407,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="483" y="135" key="MultipleFileMergeDialog/0.0.1536.834@0.0.1536.834" timestamp="1589210284828" />
-    <state x="402" y="169" key="Vcs.Push.Dialog.v2" timestamp="1589412139474">
+    <state x="402" y="169" key="Vcs.Push.Dialog.v2" timestamp="1589412785319">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="402" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1589412139474" />
+    <state x="402" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1589412785319" />
     <state x="447" y="188" key="Vcs.Push.Dialog.v2/0.0.1707.930@0.0.1707.930" timestamp="1587227934648" />
     <state x="462" y="15" width="744" height="804" key="find.popup" timestamp="1589412095982">
       <screen x="0" y="0" width="1536" height="834" />
