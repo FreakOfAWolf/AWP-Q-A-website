@@ -3,8 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="7fb177cc-70d9-4f4f-8498-ca4c62698012" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.env" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.env.development" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env.development" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/AddQuestion.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/AddQuestion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/AnswerTableRow.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/AnswerTableRow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Answers.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Answers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/DummyData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/EditQuestion.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/EditQuestion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/PostAnswer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/PostAnswer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Question.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Question.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/QuestionTableRow.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/QuestionTableRow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Questions.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Questions.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +119,8 @@
       <workItem from="1589202816616" duration="3683000" />
       <workItem from="1589274852382" duration="4885000" />
       <workItem from="1589279759099" duration="15862000" />
-      <workItem from="1589305568950" duration="1238000" />
+      <workItem from="1589305568950" duration="2686000" />
+      <workItem from="1589409016574" duration="2804000" />
     </task>
     <task id="LOCAL-00001" summary="Full working Q&amp;A website. AWP mandatory assignment.">
       <created>1587116286320</created>
@@ -280,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589306198906</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Changing AddQuestion and PostAnswer window.location to a heroku link">
+      <created>1589307016694</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1589307016694</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +310,8 @@
     <MESSAGE value="Fixing loading pages after adding a question or posting an answer to the correct page and post." />
     <MESSAGE value="asd" />
     <MESSAGE value="Fixing capital letters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing capital letters" />
+    <MESSAGE value="Changing AddQuestion and PostAnswer window.location to a heroku link" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing AddQuestion and PostAnswer window.location to a heroku link" />
   </component>
   <component name="WindowStateProjectService">
     <state x="362" y="77" key="#ESLint" timestamp="1586609938648">
@@ -304,10 +322,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="543" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1589279692564" />
-    <state x="257" y="0" key="CommitChangelistDialog2" timestamp="1589306198347">
+    <state x="257" y="0" key="CommitChangelistDialog2" timestamp="1589307015950">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="257" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1589306198347" />
+    <state x="257" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1589307015950" />
     <state x="480" y="61" key="CommitChangelistDialog2/0.0.1707.930@0.0.1707.930" timestamp="1587227929935" />
     <state x="550" y="174" key="FileChooserDialogImpl" timestamp="1589200345241">
       <screen x="0" y="0" width="1536" height="834" />
@@ -385,15 +403,15 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="483" y="135" key="MultipleFileMergeDialog/0.0.1536.834@0.0.1536.834" timestamp="1589210284828" />
-    <state x="402" y="169" key="Vcs.Push.Dialog.v2" timestamp="1589306200544">
+    <state x="402" y="169" key="Vcs.Push.Dialog.v2" timestamp="1589307029334">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="402" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1589306200544" />
+    <state x="402" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1589307029334" />
     <state x="447" y="188" key="Vcs.Push.Dialog.v2/0.0.1707.930@0.0.1707.930" timestamp="1587227934648" />
-    <state x="462" y="15" width="744" height="804" key="find.popup" timestamp="1589306936627">
+    <state x="462" y="15" width="744" height="804" key="find.popup" timestamp="1589412095982">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="462" y="15" width="744" height="804" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1589306936627" />
+    <state x="462" y="15" width="744" height="804" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1589412095982" />
     <state x="426" y="72" width="672" height="676" key="search.everywhere.popup" timestamp="1586784257398">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

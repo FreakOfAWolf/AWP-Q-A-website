@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 import axios from 'axios';
 
 export default class AddQuestion extends Component {
+    API_URL = process.env.REACT_APP_API_URL;
 
     constructor(props) {
         super(props);
@@ -42,11 +43,11 @@ export default class AddQuestion extends Component {
         };
         console.log(questionObject);
 
-        axios.post('http://localhost:8080/questions/addQuestion', questionObject)
+        axios.post(this.API_URL + '/addQuestion', questionObject)
             .then(res => console.log(res.data));
 
         this.setState({title: '', description: '', _id: ''});
-        window.location.assign("https://awp-qanda-website.herokuapp.com/QuestionsList");
+        window.location.assign(this.API_URL); // Look into how to make this work with heroku and current state
     }
 
     render() {

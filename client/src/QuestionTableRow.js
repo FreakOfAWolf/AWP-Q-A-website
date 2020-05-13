@@ -4,13 +4,15 @@ import Button from 'react-bootstrap/Button';
 import axios from 'axios';
 
 export default class QuestionTableRow extends Component {
+    API_URL = process.env.REACT_APP_API_URL;
+
     constructor(props) {
         super(props);
         this.deleteQuestion = this.deleteQuestion.bind(this);
     }
 
     deleteQuestion() {
-        axios.delete('http://localhost:8080/questions/delete-question/' + this.props.obj._id)
+        axios.delete(this.API_URL + '/delete-question/' + this.props.obj._id)
             .then((res) => {
                 console.log('Question successfully deleted!');
                 window.location.reload();

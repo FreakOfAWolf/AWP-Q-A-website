@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 import axios from 'axios';
 
 export default class PostAnswer extends Component {
+    API_URL = process.env.REACT_APP_API_URL;
 
     constructor(props) {
         super(props);
@@ -24,7 +25,7 @@ export default class PostAnswer extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:8080/questions/question/' + this.props.match.params.id)
+        axios.get(this.API_URL + '/question/' + this.props.match.params.id)
 
             .then(res => {
                 this.setState({
@@ -48,11 +49,11 @@ export default class PostAnswer extends Component {
         };
         console.log(answerObject);
 
-        axios.post('http://localhost:8080/questions/postAnswer/', answerObject)
+        axios.post(this.API_URL + '/postAnswer/', answerObject)
             .then(res => console.log(res.data));
 
         this.setState({ content: ''});
-        window.location.assign("https://awp-qanda-website.herokuapp.com/question/"+this.state._id+"/answers");
+        window.location.assign(this.API_URL + "/question/"+this.state._id+"/answers");
     }
 
     render() {

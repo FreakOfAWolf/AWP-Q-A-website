@@ -6,6 +6,7 @@ import AnswerTableRow from './AnswerTableRow';
 //Inside here I am making a HTTP GET request using axious nad Node/Express.js
 //Also I am using bootstrap table to show the question data on the frontend
 export default class Answers extends Component {
+    API_URL = process.env.REACT_APP_API_URL;
 
     constructor(props) {
         super(props);
@@ -15,7 +16,7 @@ export default class Answers extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:8080/questions/answers/')
+        axios.get(this.API_URL + '/answers/')
             .then(res => {
                 this.setState({
                     answers: res.data

@@ -5,6 +5,7 @@ import Table from "react-bootstrap/Table";
 import AnswerTableRow from "./AnswerTableRow";
 
 export default class Question extends Component {
+    API_URL = process.env.REACT_APP_API_URL;
 
     constructor(props) {
         super(props);
@@ -18,7 +19,7 @@ export default class Question extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:8080/questions/question/' + this.props.match.params.id)
+        axios.get(this.API_URL + '/question/' + this.props.match.params.id)
 
             .then(res => {
                 this.setState({
@@ -31,7 +32,7 @@ export default class Question extends Component {
                 console.log(error);
             });
 
-        axios.get('http://localhost:8080/questions/' + this.props.match.params.id + '/answers')
+        axios.get(this.API_URL + this.props.match.params.id + '/answers')
             .then(res => {
                 this.setState({
                     answers: res.data

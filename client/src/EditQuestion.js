@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 import axios from 'axios';
 
 export default class EditQuestion extends Component {
+    API_URL = process.env.REACT_APP_API_URL;
 
     constructor(props) {
         super(props);
@@ -22,7 +23,7 @@ export default class EditQuestion extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:8080/questions/edit-question/' + this.props.match.params.id)
+        axios.get(this.API_URL + '/edit-question/' + this.props.match.params.id)
             .then(res => {
                 this.setState({
                     title: res.data.title,
@@ -56,7 +57,7 @@ export default class EditQuestion extends Component {
             _id: this.state._id
         };
 
-        axios.put('http://localhost:8080/questions/update-question/' + this.props.match.params.id, questionObject)
+        axios.put(this.API_URL + '/update-question/' + this.props.match.params.id, questionObject)
             .then((res) => {
                 console.log(res.data);
                 console.log('Question successfully updated')
