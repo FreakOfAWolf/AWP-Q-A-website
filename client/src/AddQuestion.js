@@ -47,7 +47,7 @@ export default class AddQuestion extends Component {
             .then(res => console.log(res.data));
 
         this.setState({title: '', description: '', _id: ''});
-        window.location.assign(this.API_URL); // Look into how to make this work with heroku and current state
+        window.location.assign(this.API_URL.replace('questions','')); // Look into how to make this work with heroku and current state
     }
 
     render() {

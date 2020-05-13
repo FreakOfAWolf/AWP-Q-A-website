@@ -9,7 +9,6 @@ let answerSchema = new Schema({
         type: Number
     },
     parentId:{
-
         type:Number
     }
 }, {
