@@ -16,7 +16,7 @@ export default class AnswerTableRow extends Component {
         axios.delete(this.API_URL + '/delete-answer/' + this.props.obj._id)
             .then((res) => {
                 console.log('Answer successfully deleted!');
-                window.location.reload();
+                window.location.assign(this.API_URL.replace('questions','') + 'question/' + this.props.obj.parentId + '/answers');
             }).catch((error) => {
             console.log(error)
         })
@@ -29,7 +29,7 @@ export default class AnswerTableRow extends Component {
         axios.put(this.API_URL + '/voteAnswer/' + this.props.obj._id,temp)
             .then((res) => {
                 console.log('Answer successfully up-voted!');
-                window.location.assign(this.API_URL.replace('questions','') + 'question/' + this.props.obj._id + '/answers');
+                window.location.assign(this.API_URL.replace('questions','') + 'question/' + this.props.obj.parentId + '/answers');
             }).catch((error) => {
             console.log(error)
         })
