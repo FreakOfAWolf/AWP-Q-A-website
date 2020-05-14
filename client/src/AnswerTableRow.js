@@ -16,7 +16,7 @@ export default class AnswerTableRow extends Component {
         axios.delete(this.API_URL + '/delete-answer/' + this.props.obj._id)
             .then((res) => {
                 console.log('Answer successfully deleted!');
-                window.location.assign(this.API_URL.replace('questions','') + 'question/' + this.props.obj._id + '/answers');
+                window.location.reload();
             }).catch((error) => {
             console.log(error)
         })
