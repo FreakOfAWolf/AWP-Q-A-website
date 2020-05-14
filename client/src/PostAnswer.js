@@ -53,7 +53,7 @@ export default class PostAnswer extends Component {
             .then(res => console.log(res.data));
 
         this.setState({ content: ''});
-        window.location.assign(this.API_URL.replace('questions','') + "/question/" + this.state._id + "/answers");
+        window.location.assign(this.API_URL.replace('questions','') + "question/" + this.state._id + "/answers");
     }
 
     render() {
