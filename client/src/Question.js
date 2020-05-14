@@ -32,7 +32,7 @@ export default class Question extends Component {
                 console.log(error);
             });
 
-        axios.get(this.API_URL + this.props.match.params.id + '/answers')
+        axios.get(this.API_URL + '/' + this.props.match.params.id + '/answers')
             .then(res => {
                 this.setState({
                     answers: res.data

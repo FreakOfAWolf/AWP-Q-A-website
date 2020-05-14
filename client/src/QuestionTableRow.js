@@ -15,7 +15,7 @@ export default class QuestionTableRow extends Component {
         axios.delete(this.API_URL + '/delete-question/' + this.props.obj._id)
             .then((res) => {
                 console.log('Question successfully deleted!');
-                window.location.reload();
+                window.location.assign(this.API_URL.replace('questions',''));
             }).catch((error) => {
             console.log(error)
         })
