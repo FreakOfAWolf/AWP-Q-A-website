@@ -23,7 +23,7 @@ function App() {
                     <Container>
 
                         <Navbar.Brand>
-                               <h3>Mandatory Assignment: </h3>
+                               <h3>QA Box: </h3>
                         </Navbar.Brand>
 
                         <Nav className="justify-content-end">
